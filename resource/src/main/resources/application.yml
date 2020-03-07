@@ -1,0 +1,12 @@
+server:
+  port: 8081
+authentication:
+  oauth:
+    client:
+      id: app_id
+      secret: app_secret
+    tokenValidity:
+      # 15 minutes, miliseconds
+      access: 900000
+      # 7 days, seconds
+      refresh: 604800
